@@ -1,0 +1,3 @@
+how is it actually stretched?
+what is that count of width and height?
+how is image displayed on a 2D graph?
