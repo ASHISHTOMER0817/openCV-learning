@@ -16,5 +16,5 @@ while True:
             print("Quitting...")
             break
 
-cap.release()
+cap.release()      ## to close the recording and deallocates the memory.
 cv.destroyAllWindows()
