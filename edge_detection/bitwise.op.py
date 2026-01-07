@@ -4,7 +4,6 @@
 3- cv2.bitwise_not(img1)
 """
 
-
 import cv2 as cv
 import numpy as np
 

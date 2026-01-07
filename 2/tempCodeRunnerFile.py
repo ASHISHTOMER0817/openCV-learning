@@ -10,10 +10,3 @@ else:
       center = (w//2, h//2)
       M = cv.getRotationMatrix2D(center, 135, 0.25)
       print(M)
-      rotated = cv.warpAffine(img, M, (h, w))
-      cv.imshow("original", img)
-      cv.imshow("rotated 90 degree",rotated)
-      cv.waitKey(0)
-      cv.destroyAllWindows()
-
-
